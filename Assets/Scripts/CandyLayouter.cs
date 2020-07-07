@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class CandyFactory : MonoBehaviour {
-    const int SphereCandyFrequency = 3;
+public class CandyLayouter : MonoBehaviour {
+    const int SphereCandyFrequency = 3;  // 四角いキャンディーの頻度 1/3
 
     public int candySize;
     public int row;
